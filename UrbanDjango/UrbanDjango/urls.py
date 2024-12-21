@@ -21,7 +21,6 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', site_main),
     path('platform/', site_main),
     path('platform/games/', shop),
     path('platform/cart/', basket)
